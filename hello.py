@@ -10,7 +10,7 @@ print("Você tem", idade, "anos")
 print("-----")
 
 # Parte com decisão
-if idade >= 18:
+idade = int(input("Quantos anos você tem? "))
     print("Você é maior de idade 🙂")
 else:
     print("Você é menor de idade 🙃")
